@@ -90,7 +90,11 @@ class _CardWidgetState extends State<CardWidget> with SingleTickerProviderStateM
                    ),
                  ],
                ),
-            TextButton(onPressed: () {
+               SizedBox(
+                 height: 100),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(primary: Colors.black),
+              onPressed: () {
               setState(() {
                 if(isFrontVisible){
                   _controller.forward();

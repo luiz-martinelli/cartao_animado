@@ -90,7 +90,7 @@ class _CardWidgetState extends State<CardWidget> with SingleTickerProviderStateM
                    ),
                  ],
                ),
-               SizedBox(
+               const SizedBox(
                  height: 100),
             ElevatedButton(
               style: ElevatedButton.styleFrom(primary: Colors.black),
